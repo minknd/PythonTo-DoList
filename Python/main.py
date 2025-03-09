@@ -14,7 +14,7 @@ progressMap = {
 #function to query database and map progress
 def readAll():
     #connect to db through filepath 
-    connection = sqlite3.connect("Data\Task.db")
+    connection = sqlite3.connect("PythonTo-DoList\Data\Task.db")
 
     #cursor that executes db commands
     cursor = connection.cursor()
